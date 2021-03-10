@@ -1,4 +1,13 @@
-
+@font-face {
+  font-family: "Graphik";
+  src: url("assets/fonts/Graphik.otf");
+}
+* {
+  font-family: Graphik;
+}
+body {
+  margin: 0;
+}
 .container {
   height: 100vh;
   display: flex;
@@ -10,16 +19,25 @@
 .rectangle {
   width: 375px;
   height: 60px;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .logo-DHome-01 {
+  width: 144.51px;
+  height: 43.09px;
+
+  position: absolute;
+  left: 17px;
+
+  top: 10px;
 }
 
 .bars {
+  width: 18px;
+  height: 14px;
+
+  position: absolute;
+  top: 25px;
+  right: 29px;
 }
 .CoolGray-600 {
   color: #718096;
@@ -43,6 +61,12 @@
   color: #a0aec0;
   background: #1a202c;
   border-radius: 8px;
+
+  position: absolute;
+  width: 230px;
+  height: 40px;
+  left: 17px;
+  top: 70px;
 }
 .filter {
   width: 104px;
@@ -51,23 +75,80 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  top: 70px;
+  right: 10px;
+
+  font-family: Graphik;
+font-size: 16px;
+line-height: 109.5%;
+}
+.text {
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 42px;
+  top: 12px;
+  font-family: Graphik;
+font-size: 16px;
+line-height: 109.5%;
+}
+.icon-search {
+  position: absolute;
+  top: 11px;
+  left: 13px;
 }
 
-.search-filter {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 .image {
   width: 340px;
   height: 340px;
 }
+.LA {
+  position: absolute;
+  width: 244px;
+  height: 23px;
+  left: 17px;
+  top: 152px;
+  font-family: Graphik;
+font-size: 20px;
+line-height: 109.5%;
+}
+.more {
+  position: absolute;
+  width: 340px;
+  height: 23px;
+  left: 17px;
+  top: 184px;
+  color: #718096;
+  font-family: Graphik;
+font-size: 16px;
+line-height: 109.5%;
+}
+
+.item {
+  position: absolute;
+  width: 340px;
+  height: 353px;
+  left: 17px;
+  top: 241px;
+}
+.image {
+  width: 340px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .detail {
   position: absolute;
   width: 320px;
   height: 144px;
-  left: 27px;
-  top: 450px;
+  top: 209px;
+  left: 10px;
   background: #fff;
   /* Shadows/shadow-lg */
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.05);
@@ -78,19 +159,75 @@
   height: 19px;
   background: #b2f5ea;
   border-radius: 18px;
-
   color: #285e61;
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Graphik;
+font-size: 12px;
+line-height: 109.5%;
+/* identical to box height, or 13px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
 }
 
 .room {
   color: #718096;
+  position: absolute;
+  top: 23px;
+  left: 76px;
+
+  font-family: Graphik;
+font-size: 12px;
+line-height: 109.5%;
+/* identical to box height, or 13px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
 }
 .name {
   color: #1a202c;
+  position: absolute;
+  top: 47px;
+  left: 19px;
+
+  font-family: Graphik;
+font-size: 18px;
+line-height: 109.5%;
 }
 .price {
   color: #4a5568;
+  position: absolute;
+  top: 79px;
+  left: 19px;
+
+  font-family: Graphik;
+font-size: 16px;
+line-height: 109.5%;
 }
 .reviews {
   color: #718096;
+  position: absolute;
+  top: 111px;
+  left: 105px;
+
+  font-family: Graphik;
+font-size: 14px;
+line-height: 109.5%;
+}
+.rating {
+  position: absolute;
+  top: 111px;
+  left: 18px;
+  float: left;
+}
+
+.menu {
+   
+    list-style-type: none;
 }
