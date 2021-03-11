@@ -23,35 +23,46 @@
   </head>
   <body>
     <div class="container">
+      <div class="header" >
       <div class="rectangle CoolGray-900">
         <img
           class="logo-DHome-01"
           src="assets/logo-DHome-01.png"
           alt="logo-DHome-01"
-        /><img data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" class="bars" src="assets/secondary.png" alt="bars" />
-        
+        /><img
+          data-bs-toggle="collapse"
+          href="#multiCollapseExample1"
+          role="button"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1"
+          class="bars"
+          src="assets/secondary.png"
+          alt="bars"
+        />
       </div>
 
-      <div  class="menu collapse multi-collapse" id="multiCollapseExample1">
+      <div class="menu collapse multi-collapse" id="multiCollapseExample1">
         <ul class="ul1">
           <li>List your property</li>
           <li>Trips</li>
           <li>Messages</li>
         </ul>
 
-        <hr />
-        
+        <hr id="hr"/>
+
         <ul class="ul2">
-            <li class="profile-name">
-          <img class="avatar" src="assets/avatar.png" alt="avatar" /> Isla Schoger
-        </li>
+          <li class="profile-name">
+            <img class="avatar" src="assets/avatar.png" alt="avatar" /> Isla
+            Schoger
+          </li>
           <li>Account Settings</li>
           <li>Support</li>
           <li>Sign out</li>
         </ul>
       </div>
+      </div>
 
-      <div class="rectangle CoolGray-800 search-fileter">
+      <div class="rectangle CoolGray-800 search-filter">
         <div class="search CoolGray-900">
           <img
             class="icon-search"
@@ -60,9 +71,83 @@
           />
           <div class="text">Search by keywords</div>
         </div>
-        <div class="filter CoolGray-700">
-          <img src="./assets/secondary (2).png" alt="" />
-          Filters
+        <div data-bs-toggle="collapse"
+          href="#multiCollapseExample2"
+          role="button" class="filter CoolGray-700">
+          <img 
+          aria-expanded="false"
+          aria-controls="multiCollapseExample2" src="./assets/secondary (2).png" alt="" />
+          <div id="filter">Filters</div>
+        </div>
+      </div>
+
+      <div class="filter-detail menu collapse multi-collapse" id="multiCollapseExample2"">
+        <div>
+          <div class="flex first"> 
+            <div class="flex-col color-500">
+              Bedrooms
+              <select class="select1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="flex-col color-500">
+              Bathrooms
+              <select class="select1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex-col color-500 pr">
+            Price Range
+            <select class="select2">
+              <option value="1000">Up to $1,000 /wk</option>
+              <option value="2000">Up to $2,000 /wk</option>
+            </select>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div class="color-500">Propety Type</div>
+          <div class="color-white"><input class="radio1" type="radio" name="type" />House</div>
+          <div class="color-white"><input class="radio1" type="radio" name="type" />Apartment</div>
+          <div class="color-white"><input class="radio1" type="radio" name="type" />Loft</div>
+          <div class="color-white"><input class="radio1" type="radio" name="type" />Townhouse</div>
+        </div>
+        <hr />
+        <div>
+          <div class="color-500">Amenities</div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check1" value="1" />
+            <label for="check1">Balcony</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check2" value="1" />
+            <label for="check2">Air conditioning</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check3" value="1" />
+            <label for="check3">Pool</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check4" value="1" />
+            <label for="check4">Beach</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check5" value="1" />
+            <label for="check5">Pet friendly</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkbox1" name="check6" value="1" />
+            <label for="check6">Kid friendly</label>
+          </div>
+        </div>
+        <hr />
+        <div class="btn-update">
+          <button >Update results</button>
         </div>
       </div>
 
