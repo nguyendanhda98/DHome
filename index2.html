@@ -21,55 +21,78 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col">Logo</div>
-        <div class="col">Menu</div>
-      </div>
-      <div class="border">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a class="nav-brand" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <p>List your property</p>
           <p>Trips</p>
           <p>Messages</p>
           <p>Isla Schoger</p>
+
           <p>Account Settings</p>
           <p>Support</p>
           <p>Sign out</p>
-      </div>
+        </div>
+      </nav>
+
       <div class="row">
         <div class="col">input</div>
-        <div class="col">button</div>
+        <div
+          class="col"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          button
+        </div>
       </div>
-      <div class="border">
-          <div class="row">
-              <div class="col-6">
-                  <p>Bedrooms</p>
-                  <div>Select</div>
-              </div>
-              <div class="col-6">
-                  <p>Bathrooms</p>
-                  <div>Select</div>
-              </div>
-              <div class="col-12">
-                  <p>Price Range</p>
-                  <div>Select</div>
-              </div>
+      <div class="border collapse" id="collapseExample">
+        <div class="row">
+          <div class="col-6">
+            <p>Bedrooms</p>
+            <div>Select</div>
           </div>
-          <div class="border">
-              <p>Property Type</p>
-              <div>Option</div>
-              <div>Option</div>
-              <div>Option</div>
-              <div>Option</div>
+          <div class="col-6">
+            <p>Bathrooms</p>
+            <div>Select</div>
           </div>
-          <div class="border">
-              <p>Amenities</p>
-              <div>Checkbox</div>
-              <div>Checkbox</div>
-              <div>Checkbox</div>
-              <div>Checkbox</div>
-              <div>Checkbox</div>
-              <div>Checkbox</div>
+          <div class="col-12">
+            <p>Price Range</p>
+            <div>Select</div>
           </div>
-          <button>Update results</button>
+        </div>
+        <div class="border">
+          <p>Property Type</p>
+          <div>Option</div>
+          <div>Option</div>
+          <div>Option</div>
+          <div>Option</div>
+        </div>
+        <div class="border">
+          <p>Amenities</p>
+          <div>Checkbox</div>
+          <div>Checkbox</div>
+          <div>Checkbox</div>
+          <div>Checkbox</div>
+          <div>Checkbox</div>
+          <div>Checkbox</div>
+        </div>
+        <button>Update results</button>
       </div>
       <div class="border">
         <p>LA</p>
