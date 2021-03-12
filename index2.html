@@ -20,96 +20,103 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container">
-          <a class="nav-brand" href="#">Logo</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <p>List your property</p>
-          <p>Trips</p>
-          <p>Messages</p>
-          <div>
-            <p
+    <div class="container row">
+      <div class="border col-xl-3">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container">
+            <a class="nav-brand" href="#">Logo</a>
+            <button
+              class="navbar-toggler"
+              type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#profile"
-              aria-expanded="true"
-              aria-controls="collapseExample"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              Isla Schoger
-            </p>
-            <div id="profile">
-              <p>Account Settings</p>
-              <p>Support</p>
-              <p>Sign out</p>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <p>List your property</p>
+            <p>Trips</p>
+            <p>Messages</p>
+            <div>
+              <p
+                data-bs-toggle="collapse"
+                data-bs-target="#profile"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Isla Schoger
+              </p>
+              <div id="profile">
+                <p>Account Settings</p>
+                <p>Support</p>
+                <p>Sign out</p>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-      <div class="row">
-        <div class="col">input</div>
-        <div
-          class="col"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseExample"
-          aria-expanded="false"
-          aria-controls="collapseExample"
-        >
-          button
+        <nav class="navbar navbar-expand-xl">
+          <div class="row container">
+            <div class="col">Search by keywords</div>
+            <button
+              class="navbar-toggler col"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-controls="collapseExample"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              button
+            </button>
+          </div>
+          <div class="border collapse row navbar-collapse" id="collapseExample">
+            <div class="row col-lg-4">
+              <div class="col-6 col-md-3 border col-lg-6">
+                <p>Bedrooms</p>
+                <div>Select</div>
+              </div>
+              <div class="col-6 col-md-3 border col-lg-6">
+                <p>Bathrooms</p>
+                <div>Select</div>
+              </div>
+              <div class="col-12 col-md border col-lg-12">
+                <p>Price Range</p>
+                <div>Select</div>
+              </div>
+            </div>
+            <div class="border col-lg-3">
+              <p>Property Type</p>
+              <div class="border row">
+                <div class="col-md col-lg-12">Option</div>
+                <div class="col-md col-lg-12">Option</div>
+                <div class="col-md col-lg-12">Option</div>
+                <div class="col-md col-lg-12">Option</div>
+              </div>
+            </div>
+            <div class="border col-lg-5">
+              <p>Amenities</p>
+              <div class="border row row-cols-4">
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+                <div class="col-md-3 col-lg-6">Checkbox</div>
+              </div>
+            </div>
+            <button>Update results</button>
+          </div>
         </div>
       </div>
-      <div class="border collapse row" id="collapseExample">
-        <div class="row col-lg-4">
-          <div class="col-6 col-md-3 border col-lg-6">
-            <p>Bedrooms</p>
-            <div>Select</div>
-          </div>
-          <div class="col-6 col-md-3 border col-lg-6">
-            <p>Bathrooms</p>
-            <div>Select</div>
-          </div>
-          <div class="col-12 col-md border col-lg-12">
-            <p>Price Range</p>
-            <div>Select</div>
-          </div>
-        </div>
-        <div class="border col-lg-3">
-          <p>Property Type</p>
-          <div class="border row">
-            <div class="col-md col-lg-12">Option</div>
-            <div class="col-md col-lg-12">Option</div>
-            <div class="col-md col-lg-12">Option</div>
-            <div class="col-md col-lg-12">Option</div>
-          </div>
-        </div>
-        <div class="border col-lg-5">
-          <p>Amenities</p>
-          <div class="border row row-cols-4">
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-            <div class="col-md-3 col-lg-6">Checkbox</div>
-          </div>
-        </div>
-        <button>Update results</button>
-      </div>
-      <div class="border">
+
+      <div class="border col-xl-9">
         <p>LA</p>
         <p>
           Live like the stars in these luxurious Southern California estates.
