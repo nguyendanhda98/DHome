@@ -41,11 +41,21 @@
           <p>List your property</p>
           <p>Trips</p>
           <p>Messages</p>
-          <p>Isla Schoger</p>
-
-          <p>Account Settings</p>
-          <p>Support</p>
-          <p>Sign out</p>
+          <div>
+            <p
+              data-bs-toggle="collapse"
+              data-bs-target="#profile"
+              aria-expanded="true"
+              aria-controls="collapseExample"
+            >
+              Isla Schoger
+            </p>
+            <div id="profile">
+              <p>Account Settings</p>
+              <p>Support</p>
+              <p>Sign out</p>
+            </div>
+          </div>
         </div>
       </nav>
 
@@ -61,36 +71,41 @@
           button
         </div>
       </div>
-      <div class="border collapse" id="collapseExample">
-        <div class="row">
-          <div class="col-6">
+      <div class="border collapse row" id="collapseExample">
+        <div class="row col-lg-4">
+          <div class="col-6 col-md-3 border col-lg-6">
             <p>Bedrooms</p>
             <div>Select</div>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-md-3 border col-lg-6">
             <p>Bathrooms</p>
             <div>Select</div>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md border col-lg-12">
             <p>Price Range</p>
             <div>Select</div>
           </div>
         </div>
-        <div class="border">
+        <div class="border col-lg-3">
           <p>Property Type</p>
-          <div>Option</div>
-          <div>Option</div>
-          <div>Option</div>
-          <div>Option</div>
+          <div class="border row">
+            <div class="col-md col-lg-12">Option</div>
+            <div class="col-md col-lg-12">Option</div>
+            <div class="col-md col-lg-12">Option</div>
+            <div class="col-md col-lg-12">Option</div>
+          </div>
         </div>
-        <div class="border">
+        <div class="border col-lg-5">
           <p>Amenities</p>
-          <div>Checkbox</div>
-          <div>Checkbox</div>
-          <div>Checkbox</div>
-          <div>Checkbox</div>
-          <div>Checkbox</div>
-          <div>Checkbox</div>
+          <div class="border row row-cols-4">
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+            <div class="col-md-3 col-lg-6">Checkbox</div>
+          </div>
         </div>
         <button>Update results</button>
       </div>
@@ -99,9 +114,11 @@
         <p>
           Live like the stars in these luxurious Southern California estates.
         </p>
-        <div>Item</div>
-        <div>Item</div>
-        <div>Item</div>
+        <div class="border row">
+          <div class="col-md-6 col-lg-4">Item</div>
+          <div class="col-md-6 col-lg-4">Item</div>
+          <div class="col-md-6 col-lg-4">Item</div>
+        </div>
       </div>
     </div>
   </body>
